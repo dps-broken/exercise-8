@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 8</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="container-xxl position-relative">
+        <!-- For bg set -->
+        <div class="hero-bg">
+            <!-- Nav Bar Code Started Here  -->
+            <nav class="row py-3 align-items-center bg-transparent w-100">
+                <!-- Left Section (Title for Mobile) -->
+                <div class="col-6 text-start ps-3 d-md-none">
+                    <h2 class="m-0">Landie</h2>
+                </div>
+
+                <!-- Toggle Button for Mobile and Tablet -->
+                <div class="col-6 d-flex justify-content-end pe-3 d-md-none">
+                    <button class="navbar-toggler z-2" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                    </button>
+                </div>
+
+                <!-- Left Section (Navigation for Desktop) -->
+                <div class="col-md-4 d-none d-md-flex align-items-center gap-4">
+                    <button class="bg-transparent border-0">Home</button>
+                    <button class="bg-transparent border-0">About</button>
+                    <button class="bg-transparent border-0">Contact</button>
+                </div>
+
+                <!-- Center Section (Title for Desktop) -->
+                <div class="col-md-4 text-center d-none d-md-block">
+                    <h2 class="m-0">Landie</h2>
+                </div>
+
+                <!-- Right Section (Buy Now Button for Desktop) -->
+                <div class="col-md-4 d-flex justify-content-end d-none d-md-flex">
+                    <button class="px-5 py-2 color-code-bg text-light border-0">
+                        Buy Now
+                    </button>
+                </div>
+
+                <!-- Offcanvas Navigation for Mobile and Tablet -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Landie</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column align-items-center">
+                        <button class="bg-transparent border-0 mb-3">Home</button>
+                        <button class="bg-transparent border-0 mb-3">About</button>
+                        <button class="bg-transparent border-0 mb-3">Contact</button>
+                        <button class="px-5 py-2 color-code-bg text-light border-0">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <!-- Nav Bar Code Ended Here -->
+            <!-- hero section code started -->
+
+            <header class="">
+                <div class="row">
+                    <div class="col-12 col-lg-6 py-5">
+                        <h2 class="main-headding">
+                            Introduce Your Product Quickly & Effectively
+                        </h2>
+                        <p class="para-size">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                            penatibus et magnis dis parturient montes, nascetur ridiculus
+                        </p>
+                        <p class="para-size">
+                            mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                            quis, sem. Nulla consequat massa quis enim.
+                        </p>
+                        <button class="px-4 py-2 color-code-bg text-light">
+                            Purchase UI Kit
+                        </button>
+                        <button class="px-4 py-2 bg-transparent color-code">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="col-12 col-lg-2"></div>
+                    <div class="col-12 col-lg-4">
+                        <img src="./assets/Group.png" height="500" width="100%" alt="" />
+                    </div>
+                </div>
+            </header>
+            <!-- hero section code ended -->
+        </div>
+        <!-- hero-bg-div closed -->
+
+        <!-- Page - 2 Code Started Here -->
+        <div class="page-2-wrapper d-flex align-items-center justify-content-center flex-wrap py-5 mt-5">
+            <div class="page-2-left">
+                <h1>Light, Fast & Powerful</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                    penatibus et magnis dis parturient montes, nascetur ridiculus
+                </p>
+                <p>
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                    sem. Nulla consequat massa quis enim.
+                </p>
+                <div class="card-wrapper-page-2 d-flex">
+                    <div class="card-page-2 m-2 py-2">
+                        <img src="./assets/Icon.png" alt="" />
+                        <h4 class="mt-3">Title Goes Here</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <div class="card-page-2 m-2 py-2">
+                        <img src="./assets/Icon.png" alt="" />
+                        <h4 class="mt-3">Title Goes Here</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo ligula eget dolor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="page-2-right">
+                <img src="./assets/page-2 img.png" alt="" />
+            </div>
+        </div>
+        <!-- Page - 2 Code Ended Here -->
+        <!-- Page - 3 Code Started  Here -->
+        <div class="page-3-wrapper d-flex align-items-center justify-content-center flex-wrap-reverse py-5 mt-5">
+            <div class="page-3-left">
+                <img src="./assets/page-3.png" alt="" />
+            </div>
+            <div class="page-3-right">
+                <h2>Light, Fast & Powerful</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                    penatibus et magnis dis parturient montes, nascetur ridiculus
+                </p>
+                <p>
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                    sem. Nulla consequat massa quis enim.
+                </p>
+            </div>
+        </div>
+        <!-- Page - 3 Code Ended  Here -->
+        <!-- Page - 4 Code Started  Here -->
+        <div class="page-4-wrapper d-flex align-items-center justify-content-center flex-wrap-reverse py-5 mt-5">
+            <div class="page-4-left p-5">
+                <img src="./assets/page-4.png" alt="" />
+            </div>
+            <div class="page-4-right">
+                <h2>Light, Fast & Powerful</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                    penatibus et magnis dis parturient montes, nascetur ridiculus
+                </p>
+                <p>
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                    sem. Nulla consequat massa quis enim.
+                </p>
+            </div>
+        </div>
+        <!-- Page - 4 Code Ended  Here -->
+        <!-- Page - 5 Code Started  Here -->
+        <div class="page-5-wrapper d-flex align-items-center justify-content-center flex-wrap-reverse py-5 mt-5">
+            <div class="page-5-left p-5">
+                <img src="./assets/page-5.png" alt="" />
+            </div>
+            <div class="page-5-right">
+                <h2>Light, Fast & Powerful</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                    penatibus et magnis dis parturient montes, nascetur ridiculus
+                </p>
+                <p>
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                    sem. Nulla consequat massa quis enim.
+                </p>
+            </div>
+        </div>
+        <!-- Page - 5 Code Ended  Here -->
+        <!-- parge -6 code started here -->
+        <div class="page-6-wrapper d-flex align-items-center justify-content-center flex-column p-5">
+            <h2 class="text-center">A Price To Suit Everyone</h2>
+            <p class="text-center para-size">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+                et magnis dis parturient montes, nascetur ridiculus
+            </p>
+            <p class="display-1 fw-bolder">$40</p>
+            <p class="para-size">UI Design Kit</p>
+            <button class="px-5 py-2 color-code-bg text-light border-0">
+                Purchase Now
+            </button>
+        </div>
+        <!-- page - 6 code ended here -->
+        <!-- footer Code Started -->
+        <footer class="py-5 ">
+            <div
+                class="footer-upper border-bottom border-3 border-dark d-flex align-items-center justify-content-between flex-wrap">
+                <p>©2020 Yourcompany</p>
+                <h2 class="color-code">Landie</h2>
+                <button class="px-5 py-2 color-code-bg text-light border-0">
+                    Purchase Now
+                </button>
+            </div>
+            <div class="footer-lower d-flex align-items-center justify-content-between flex-wrap">
+                <div class="footer-lower-left">
+                    <a class="m-3 text-decoration-none " style="color: var(--color-code);" href="Home">Home</a>
+                    <a class="m-3 text-decoration-none " style="color: var(--color-code);" href="About">About</a>
+                    <a class="m-3 text-decoration-none " style="color: var(--color-code);" href="Contact">Contact</a>
+                </div>
+                <div class="footer-lower-right d-flex align-items-center justify-content-between mt-5">
+                    <p><i class="fa-brands fa-facebook-f"></i></p>
+                    <p><i class="fa-brands fa-linkedin-in"></i></p>
+                    <p><i class="fa-brands fa-twitter"></i></p>
+                    <p><i class="fa-brands fa-youtube"></i></p>
+                    <p><i class="fa-brands fa-instagram"></i></p>
+                </div>
+            </div>
+        </footer>
+                <!-- footer Code Ended -->
+    </main>
+</body>
+
+</html>

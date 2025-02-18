@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+:root{
+    --color-code:#111B47;
+    --hadding:36px;
+}
+.color-code{
+    color: var(--color-code);
+}
+.color-code-bg{
+    background-color: var(--color-code);
+}
+.hadding-size{
+    font-size: var(--hadding);
+}
+.para-size{
+    font-size: 18px;
+}
+header{
+    margin-top: 100px;
+}
+.hero-bg{
+    background-image: url('./assets/Path.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background: #a5a5a5; */
+}
+button {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.main-headding{
+    font-size: 50px;
+}
+
+.page-2-left,.page-2-right,.page-3-left,.page-3-right,.page-4-left,.page-4-right,.page-5-left,.page-5-right{
+    width: 50%;
+    min-width: 400px;
+    padding: 20px;
+}
+
+.page-2-right img{
+    width: 100%;
+    height: 100%;   
+}
+.page-3-left img{
+    width: 100%;
+    height: 100%;   
+}
+.page-4-left img{
+    width: 100%;
+    height: 100%;   
+}
+.page-5-left img{
+    width: 100%;
+    height: 100%;   
+}
+.page-6-wrapper{
+    min-height: 600px;
+    background-image: url('./assets/Rectangle.png');
+}
+.footer-lower-left{
+    min-width: 300px;
+}
+.footer-lower-right{
+    min-width: 200px;
+    max-width: 100%;
+}
