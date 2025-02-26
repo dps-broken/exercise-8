@@ -79,8 +79,10 @@ body {
 
 }
 @media (max-width:400px) {
-    .hero{
+    .hero-parent{
         padding: 0 20px;
+        /* background: #000; */
+        border: 1px solid red;
     }
     
 
