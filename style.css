@@ -125,10 +125,28 @@ body {
     padding-bottom: 100px;
     
 }
-.footer-lower-left{
-    min-width: 300px;
+.footer-lower-left {
+    min-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.footer-lower-right{
+.footer-lower-right {
     min-width: 200px;
     max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .footer-upper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-lower {
+        flex-direction: column;
+    }
+    .footer-lower-right {
+        margin-top: 10px;
+    }
 }
