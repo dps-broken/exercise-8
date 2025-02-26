@@ -5,107 +5,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercise 8</title>
-    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <main class="container-xxl position-relative">
-        <!-- For bg set -->
+    <main class="position-relative ">
         <div class="hero-bg">
-            <!-- Nav Bar Code Started Here  -->
-            <nav class="row py-3 align-items-center bg-transparent w-100">
-                <!-- Left Section (Title for Mobile) -->
-                <div class="col-6 text-start ps-3 d-md-none">
-                    <h2 class="m-0">Landie</h2>
-                </div>
 
-                <!-- Toggle Button for Mobile and Tablet -->
-                <div class="col-6 d-flex justify-content-end pe-3 d-md-none">
-                    <button class="navbar-toggler z-2" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
-                    </button>
-                </div>
 
-                <!-- Left Section (Navigation for Desktop) -->
-                <div class="col-md-4 d-none d-md-flex align-items-center gap-4">
-                    <button class="bg-transparent border-0">Home</button>
-                    <button class="bg-transparent border-0">About</button>
-                    <button class="bg-transparent border-0">Contact</button>
-                </div>
-
-                <!-- Center Section (Title for Desktop) -->
-                <div class="col-md-4 text-center d-none d-md-block">
-                    <h2 class="m-0">Landie</h2>
-                </div>
-
-                <!-- Right Section (Buy Now Button for Desktop) -->
-                <div class="col-md-4 d-flex justify-content-end d-none d-md-flex">
-                    <button class="px-5 py-2 color-code-bg text-light border-0">
-                        Buy Now
-                    </button>
-                </div>
-
-                <!-- Offcanvas Navigation for Mobile and Tablet -->
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Landie</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <div class="container">
+                <!-- Nav Bar Code Started -->
+                <nav class="row py-3 align-items-center bg-transparent w-100">
+                    <div class="col-6 text-start ps-3 d-md-none">
+                        <h2 class="m-0">Landie</h2>
                     </div>
-                    <div class="offcanvas-body d-flex flex-column align-items-center">
-                        <button class="bg-transparent border-0 mb-3">Home</button>
-                        <button class="bg-transparent border-0 mb-3">About</button>
-                        <button class="bg-transparent border-0 mb-3">Contact</button>
+                    <div class="col-6 d-flex justify-content-end pe-3 d-md-none">
+                        <button class="navbar-toggler z-2" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                        </button>
+                    </div>
+                    <div class="col-md-4 d-none d-md-flex align-items-center gap-4">
+                        <button class="bg-transparent border-0">Home</button>
+                        <button class="bg-transparent border-0">About</button>
+                        <button class="bg-transparent border-0">Contact</button>
+                    </div>
+                    <div class="col-md-4 text-center d-none d-md-block">
+                        <h2 class="m-0">Landie</h2>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-end d-none d-md-flex">
                         <button class="px-5 py-2 color-code-bg text-light border-0">
                             Buy Now
                         </button>
                     </div>
-                </div>
-            </nav>
-            <!-- Nav Bar Code Ended Here -->
-            <!-- hero section code started -->
-
-            <header class="">
-                <div class="row">
-                    <div class="col-12 col-lg-6 py-5">
-                        <h2 class="main-headding">
-                            Introduce Your Product Quickly & Effectively
-                        </h2>
-                        <p class="para-size">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                            penatibus et magnis dis parturient montes, nascetur ridiculus
-                        </p>
-                        <p class="para-size">
-                            mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                            quis, sem. Nulla consequat massa quis enim.
-                        </p>
-                        <button class="px-4 py-2 color-code-bg text-light">
-                            Purchase UI Kit
-                        </button>
-                        <button class="px-4 py-2 bg-transparent color-code">
-                            Learn More
-                        </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Landie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column align-items-center">
+                            <button class="bg-transparent border-0 mb-3">Home</button>
+                            <button class="bg-transparent border-0 mb-3">About</button>
+                            <button class="bg-transparent border-0 mb-3">Contact</button>
+                            <button class="px-5 py-2 btn btn-primary">Buy Now</button>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-2"></div>
-                    <div class="col-12 col-lg-4">
-                        <img src="./assets/Group.png" height="500" width="100%" alt="" />
+                </nav>
+                <!-- Nav Bar Code Ended -->
+            </div>
+            <!-- Hero section Code Started -->
+            <div class="hero-parent container-xl">
+                <div class="row align-items-center justify-content-center text-md-start text-center py-5">
+                    <div class="hero-left">
+                        <h1 class="fw-bold display-5">Introduce Your Product Quickly & Effectively</h1>
+                        <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo ligula eget dolor. Aenean massa.</p>
+                        <p class="text-muted">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                            consequat massa quis enim.</p>
+                        <div class="d-flex gap-3 justify-content-md-start justify-content-center">
+                            <button class="px-5 py-2 color-code-bg text-light border-0">Purchase UI Kit</button>
+                            <button class="btn btn-outline-dark px-4 py-2">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="hero-right">
+                        <img src="./assets/Group.png" class="img-fluid" alt="Product Image">
                     </div>
                 </div>
-            </header>
-            <!-- hero section code ended -->
+            </div>
+            <!-- Hero section Code Ended -->
         </div>
-        <!-- hero-bg-div closed -->
 
         <!-- Page - 2 Code Started Here -->
-        <div class="page-2-wrapper d-flex align-items-center justify-content-center flex-wrap py-5 mt-5">
+        <div class="container page-2-wrapper d-flex align-items-center justify-content-center flex-wrap py-5 mt-5">
             <div class="page-2-left">
                 <h1>Light, Fast & Powerful</h1>
                 <p>
@@ -142,7 +121,8 @@
         </div>
         <!-- Page - 2 Code Ended Here -->
         <!-- Page - 3 Code Started  Here -->
-        <div class="page-3-wrapper d-flex align-items-center justify-content-center flex-wrap-reverse py-5 mt-5">
+        <div
+            class="container page-3-wrapper d-flex align-items-center justify-content-center flex-wrap-reverse py-5 mt-5">
             <div class="page-3-left">
                 <img src="./assets/page-3.png" alt="" />
             </div>
@@ -161,7 +141,8 @@
         </div>
         <!-- Page - 3 Code Ended  Here -->
         <!-- Page - 4 Code Started  Here -->
-        <div class="page-4-wrapper d-flex align-items-center justify-content-center flex-wrap-reverse py-5 mt-5">
+        <div
+            class="container page-4-wrapper d-flex align-items-center justify-content-center flex-wrap-reverse py-5 mt-5">
             <div class="page-4-left p-5">
                 <img src="./assets/page-4.png" alt="" />
             </div>
@@ -180,7 +161,8 @@
         </div>
         <!-- Page - 4 Code Ended  Here -->
         <!-- Page - 5 Code Started  Here -->
-        <div class="page-5-wrapper d-flex align-items-center justify-content-center flex-wrap-reverse py-5 mt-5">
+        <div
+            class="container page-5-wrapper d-flex align-items-center justify-content-center flex-wrap-reverse py-5 mt-5">
             <div class="page-5-left p-5">
                 <img src="./assets/page-5.png" alt="" />
             </div>
@@ -199,18 +181,21 @@
         </div>
         <!-- Page - 5 Code Ended  Here -->
         <!-- parge -6 code started here -->
-        <div class="page-6-wrapper d-flex align-items-center justify-content-center flex-column p-5">
-            <h2 class="text-center">A Price To Suit Everyone</h2>
-            <p class="text-center para-size">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-                et magnis dis parturient montes, nascetur ridiculus
-            </p>
-            <p class="display-1 fw-bolder">$40</p>
-            <p class="para-size">UI Design Kit</p>
-            <button class="px-5 py-2 color-code-bg text-light border-0">
-                Purchase Now
-            </button>
+        <div class="page-6-wrapper">
+            <div class="page-6-corve"></div>
+            <div class="page-6-content d-flex align-items-center justify-content-center flex-column p-5">
+                <h2 class="text-center">A Price To Suit Everyone</h2>
+                <p class="text-center para-size">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+                    et magnis dis parturient montes, nascetur ridiculus
+                </p>
+                <p class="display-1 fw-bolder">$40</p>
+                <p class="para-size">UI Design Kit</p>
+                <button class="px-5 py-2 color-code-bg text-light border-0">
+                    Purchase Now
+                </button>
+            </div>
         </div>
         <!-- page - 6 code ended here -->
         <!-- footer Code Started -->
@@ -238,7 +223,7 @@
                 </div>
             </div>
         </footer>
-                <!-- footer Code Ended -->
+        <!-- footer Code Ended -->
     </main>
 </body>
 
