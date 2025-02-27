@@ -87,29 +87,92 @@ body {
 
 }
 
-
-.page-2-left,.page-2-right,.page-3-left,.page-3-right,.page-4-left,.page-4-right,.page-5-left,.page-5-right{
+/* General Styles */
+.page-2-left, .page-2-right, 
+.page-3-left, .page-3-right, 
+.page-4-left, .page-4-right, 
+.page-5-left, .page-5-right {
     width: 50%;
     min-width: 300px;
-    padding: 0 20px;
+    padding: 20px;
 }
 
-.page-2-right img{
+/* Image Styling */
+.page-2-right img,
+.page-3-left img,
+.page-4-left img,
+.page-5-left img {
     width: 100%;
-    height: 100%;   
+    height: auto;
+    max-width: 100%;
+    display: block;
 }
-.page-3-left img{
-    width: 100%;
-    height: 100%;   
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .page-2-left, .page-2-right,
+    .page-3-left, .page-3-right,
+    .page-4-left, .page-4-right,
+    .page-5-left, .page-5-right {
+        width: 100%;
+        padding: 15px;
+    }
 }
-.page-4-left img{
-    width: 100%;
-    height: 100%;   
+.page-3-wrapper,.page-4-wrapper,.page-5-wrapper{
+    margin-top: 100px;
 }
-.page-5-left img{
-    width: 100%;
-    height: 100%;   
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .page-2-left, .page-2-right,
+    .page-3-left, .page-3-right,
+    .page-4-left, .page-4-right,
+    .page-5-left, .page-5-right {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .card-wrapper-page-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-page-2 {
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
 }
+
+@media (max-width: 480px) {
+    .page-2-left h1, .page-3-right h2,
+    .page-4-right h2, .page-5-right h2 {
+        font-size: 24px;
+    }
+    
+    .page-2-left p, .page-3-right p,
+    .page-4-right p, .page-5-right p {
+        font-size: 14px;
+    }
+    
+    .page-2-left, .page-2-right,
+    .page-3-left, .page-3-right,
+    .page-4-left, .page-4-right,
+    .page-5-left, .page-5-right {
+        padding: 8px;
+    }
+}
+
 .page-6-corve{
     clip-path: ellipse(54% 15% at 50% 0%);
     height: 200px;
@@ -122,6 +185,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #e7ecff7c;
+    padding-bottom: 100px;
     
 }
 .footer-color{
@@ -138,6 +202,10 @@ body {
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
+    color: #a7a7a7;
+}
+.footer-lower-right p:hover{
+    color: #111B47;
 }
 
 @media (max-width: 768px) {
